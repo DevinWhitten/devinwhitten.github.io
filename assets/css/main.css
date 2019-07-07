@@ -97,14 +97,21 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+
 /*   BACKGROUND LAYER    #935d8c*/
+/*   BACKGROUND LAYER    #e37682c*/
+/*   BACKGROUND LAYER    #6542e3*/
+
+
 	body {
 		background-color: #4143ba;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #6542e3 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6542e3 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #6542e3 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #6542e3 15%, #5f4d93 85%);
 	}
+
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
